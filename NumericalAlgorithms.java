@@ -24,8 +24,8 @@ public class NumericalAlgorithms {
     }
     
     public static void main(String args[]) {
-        double[][] a = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
-        double[][] b = {{1, 5}, {2, 6}, {3, 7}, {4, 8}};
+        double[][] a = {{2, -4, 6}, {6, -6, 6}, {4, 2, 2}};
+        double[][] b = {{-0.2, 1.0/6.0, 0.1}, {0.1, -1.0/6.0, 0.2}, {0.3, -1.0/6.0, 0.1}};
         double[][] c = matMult(a, b);
         for(int i = 0; i < c.length; i++) {
             System.out.println("");
