@@ -1,4 +1,4 @@
-public class GuassJordan {
+public class GaussJordan {
     
     public static double[][] invert(double[][] A) throws IllegalArgumentException {
         if (A.length != A[0].length) {
